@@ -1,0 +1,235 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+  margin: 0;
+}
+
+h2 {
+  margin-bottom: 5px;
+  margin-top: 15px;
+  font-size: 1.6em;
+}
+
+h3 {
+  margin-top: 15px;
+  color: lightgrey;
+}
+
+form {
+  font-size: 1.3em;
+}
+
+
+label {
+  display: block;
+  color: grey;
+  cursor: pointer;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea, select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: 4em;
+  margin: 0;
+  outline: 0;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+textarea {
+  height: 9.5em;
+}
+
+input[type="text"], input[type="email"] {
+  -webkit-transition: 1s;
+
+}
+
+input[type="text"]:focus {
+  background-color: #0d0d26;
+}
+
+input[type="email"]:focus {
+  background-color: #0d0d26;
+}
+
+button {
+  padding: 30px;
+  color: #FFF;
+  background-color: lightseagreen;
+  font-size: 25px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+input[placeholder] {
+  text-align: right;
+  color: lightgrey;
+}
+
+input[type="checkbox"], input[type="radio"] {
+  margin-right: 15px;
+  margin-bottom: 20px;
+}
+
+p {
+  text-align: center;
+  font-style: italic;
+  color: lightgrey;
+  margin-top: 30px;
+}
+
+legend {
+  padding: 0;
+  font-size: 1.8em;
+  color: #0d0d26;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+  margin-bottom: 10px;
+}
+
+hr {
+  margin: 0;
+  background-color: #0d0d26;
+  height: 0.2em;
+}
+
+
+.sub-header, .main-form{
+  margin: 0 20px;
+}
+
+.main-header {
+  background-color: #0d0d26;
+  color: #fff;
+  padding: 35px;
+  text-align: center;
+}
+
+.sub-header {
+  padding: 20px;
+  margin: 0;
+  margin-bottom: 0;
+  text-align: center;
+  background-color: beige;
+}
+
+.hr1 {
+  background-color: #0d0d26;
+  height: 0.4em;
+  margin: 0;
+  margin-bottom: 0.2em;
+}
+
+.hr2 {
+  background-color: #0d0d26;
+  height: 0.2em;
+  margin: 0;
+}
+
+.main-form {
+  margin-top: 30px;
+}
+
+.news {
+  padding-top: 30px;
+}
+
+.options {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.topics {
+  margin-top: 20px;
+}
+
+#Javascript-news {
+  margin-bottom: 20px;
+}
+
+#zip {
+  width: 50%;
+}
+
+@media screen and (min-width: 768px) {
+
+  .main-header {
+    padding: 20px;
+  }
+
+  .sub-header {
+    padding-top: 40px;
+  }
+
+
+ .contact {
+    width: 30%;
+    float: left;
+    padding: 15px 0;
+  }
+
+ .container {
+    clear: both;
+  }
+
+ .news {
+    padding-top: 50px;
+    margin-bottom: 0;
+  }
+
+ input[type="text"], input[type="email"], input[type="tel"], select {
+    width: 70%;
+    float: left;
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  legend {
+    font-size: 1em;
+  }
+
+  body {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  #zip {
+    width: 35%;
+  }
+
+
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Online Form</title>
+  <meta name="vieport" content="width=device-width, initial-scale=1.0">
+  <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="main-header">
+    <h1>THE CODE REVIEW</h1>
+  </header>
+  <div class="sub-header">
+      <h2>Sign up for our newsletter</h2>
+      <h3>Get the latest news on how your code is doing right in your inbox</h3>
+  </div>
+  <hr class="hr1">
+  <hr class="hr2">
+  <form action="index.html" method="post" class="main-form">
+    <div class="container">
+      <fieldset>
+        <legend>Contact Information</legend>
+        <label for="name" class="contact">Full Name</label>
+        <input type="text" id="name" name="user_name" placeholder="Required" required>
+        <label for="email" class="contact">Email Address</label>
+        <input type="email" id="email" name="user_email" placeholder="Required" required>
+        <label for="phone" class="contact">Phone Number</label>
+        <input type="tel" id="phone" name="user_telephone" placeholder="Required" required>
+        <label for="address" class="contact">Street Address:</label>
+        <input type="text" id="address" name="user_address">
+        <label for="city" class="contact">City:</label>
+        <input type="text" id="city" name="user_city">
+        <label for="state" class="contact">State</label>
+        <select id="state" name="user_state">
+          <optgroup label="Choose State">
+            <option value="city1">City1</option>
+            <option value="city2">City2</option>
+            <option value="city3">City3</option>
+            <option value="city4">City4</option>
+          </optgroup>
+        </select>
+        <label for="zip" class="contact">Zip Code</label>
+        <input type="text" id="zip" name="user_zip">
+     </fieldset>
+    </div>
+  <hr>
+    <fieldset>
+      <legend class="news">Newsletter</legend>
+      <label class="options">Select the newsletters you would like to receive</label>
+      <input type="checkbox" id="html-news" value="interest_html" name="user_html"><label for="html-news" class="light">HTML News</label><br>
+      <input type="checkbox" id="CSS-news" value="interest_css" name="user_css"><label for="CSS-news" class="light">CSS News</label><br>
+      <input type="checkbox" id="Javascript-news" value="interest_javascript" name="user_javascript"><label for="Javascript-news" class="light">Javascript News</label><br>
+      <label class="options">Newsletter Format</label>
+      <input type="radio" id="HTML" value="HTML" name="user_format"><label class="light" for="HTML">HTML</label><br>
+      <input type="radio" id="plain-text" value="plain-text" name="user_format"><label class="light" for="plain-text">Plain Text</label><br>
+      <label for="bio" class="topics">Other topics you'd like to hear about</label>
+      <textarea id="bio" name="user_bio"></textarea>
+    </fieldset>
+    <button type="submit">Sign Up</button>
+    <p>Copyright The Code Review</p>
+  </form>
+
+
+</body>
