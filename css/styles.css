@@ -57,17 +57,18 @@ textarea {
   height: 9.5em;
 }
 
-input[type="text"], input[type="email"] {
-  -webkit-transition: 1s;
 
-}
 
 input[type="text"]:focus {
   background-color: #0d0d26;
+  -webkit-transition: 1s;
+  text-align: left;
 }
 
 input[type="email"]:focus {
   background-color: #0d0d26;
+  -webkit-transition: 1s;
+  text-align: left;
 }
 
 button {
